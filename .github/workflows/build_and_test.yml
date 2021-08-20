@@ -12,7 +12,7 @@ on:
 
 jobs:
   build:
-  name: "Build with Java ${{ matrix.java }}"
+  name: "Build with Java"
   runs-on: ubuntu-20.04
   strategy:
     fail-fast: false
